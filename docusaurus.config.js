@@ -88,7 +88,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Java Essentials',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -102,14 +102,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Important Links',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Java Questions',
+                to: '/docs/category/java-questions',
+              },
+              {
+                label: 'Spring Boot Questions',
+                to: '/docs/category/spring-boot-questions',
               },
             ],
           },
+          
           {
             title: 'Community',
             items: [
@@ -136,12 +141,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Bala-Guravaiah-Parimi',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Bala Guravaiah.`,
       },
       prism: {
         theme: prismThemes.github,
