@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Bala Guravaiah',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Java is Very cool',
   trailingSlash: false,
   favicon: 'img/favicon.ico',
 
@@ -109,7 +109,7 @@ const config = {
                 to: '/docs/category/java-questions',
               },
               {
-                label: 'Spring Boot Questions',
+                label: 'Spring Boot Annotations',
                 to: '/docs/category/spring-boot-annotations',
               },
             ],
