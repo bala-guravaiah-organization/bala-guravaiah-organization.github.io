@@ -110,7 +110,7 @@ const config = {
               },
               {
                 label: 'Spring Boot Questions',
-                to: '/docs/category/spring-boot-questions',
+                to: '/docs/category/spring-boot-annotations',
               },
             ],
           },
