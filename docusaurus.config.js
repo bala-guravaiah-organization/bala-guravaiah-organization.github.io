@@ -139,6 +139,19 @@ const config = {
     }),
 };
 
-
+//plugin to enable local search
+config.plugins = [
+  [
+    require.resolve('@easyops-cn/docusaurus-search-local'),
+    /** @type {import('@easyops-cn/docusaurus-search-local').Options} */
+    ({
+      hashed: true,
+      language: ['en'],
+      indexDocs: true,
+      indexPages: true,
+      docsRouteBasePath: '/',
+    }),
+  ],
+];
 
 export default config;
